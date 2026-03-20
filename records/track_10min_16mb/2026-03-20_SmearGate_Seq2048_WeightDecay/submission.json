@@ -1,0 +1,11 @@
+{
+  "track": "10min_16mb",
+  "date": "2026-03-20",
+  "name": "SmearGate + Seq2048 + NorMuon WD + NTK RoPE + Int6 STE + SWA + Sliding Window",
+  "author": "dexhunter",
+  "seed_results": {
+    "1337": {"val_bpb": 1.1537, "steps": null, "ms_per_step": null, "artifact_bytes": null}
+  },
+  "mean_val_bpb": 1.1537,
+  "note": "Pending 3-seed verification. Single-seed AIDE2 result."
+}
