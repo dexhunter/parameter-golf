@@ -1,0 +1,126 @@
+=== evaluate.py: Starting training ===
+optimize.py: 63333 bytes
+NPROC: 8
+timeout: 1200s
+cwd: /home/dex/parameter-golf-with-weco
+
+
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+logs/aa65c306-1832-4342-8321-08699585f774.txt
+val_bpb:enabled tokenizer_kind=sentencepiece tokenizer_path=/home/dex/parameter-golf-with-weco/data/tokenizers/fineweb_1024_bpe.model
+train_loader:dataset:fineweb10B_sp1024 train_shards:80
+val_loader:shards pattern=/home/dex/parameter-golf-with-weco/data/datasets/fineweb10B_sp1024/fineweb_val_*.bin tokens:62021632
+model_params:26469976
+world_size:8 grad_accum_steps:1
+mlp_mult:3 mlp_hidden:1536
+optimizer:NorMuon momentum:0.99 beta2:0.95 weight_decay:0.04
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+/home/dex/parameter-golf-with-weco/.venv/lib/python3.12/site-packages/triton/language/semantic.py:1643: UserWarning: tl.where with a non-boolean condition is deprecated and will error out in a future triton release. Got int8
+  warnings.warn(
+warmup_step:10/50
+warmup_step:20/50
+warmup_step:30/50
+warmup_step:40/50
+warmup_step:50/50
+step:1/20000 train_loss:6.9315 train_time:77ms step_avg:76.79ms
+step:2/20000 train_loss:8.8097 train_time:223ms step_avg:111.31ms
+step:3/20000 train_loss:7.1471 train_time:309ms step_avg:102.96ms
+step:4/20000 train_loss:7.8816 train_time:396ms step_avg:98.97ms
+step:5/20000 train_loss:8.1839 train_time:483ms step_avg:96.61ms
+step:6/20000 train_loss:7.9087 train_time:570ms step_avg:94.99ms
+step:7/20000 train_loss:7.3112 train_time:658ms step_avg:93.96ms
+step:8/20000 train_loss:6.9962 train_time:745ms step_avg:93.08ms
+step:9/20000 train_loss:6.6978 train_time:832ms step_avg:92.41ms
+step:10/20000 train_loss:6.4054 train_time:918ms step_avg:91.84ms
+step:200/20000 train_loss:2.3979 train_time:17880ms step_avg:89.40ms
+step:400/20000 train_loss:2.4075 train_time:35824ms step_avg:89.56ms
+step:600/20000 train_loss:2.3310 train_time:53615ms step_avg:89.36ms
+step:800/20000 train_loss:2.2378 train_time:71513ms step_avg:89.39ms
+step:1000/20000 train_loss:2.2725 train_time:89291ms step_avg:89.29ms
+step:1200/20000 train_loss:2.3566 train_time:107189ms step_avg:89.32ms
+step:1400/20000 train_loss:2.1931 train_time:125098ms step_avg:89.36ms
+step:1600/20000 train_loss:2.0796 train_time:142898ms step_avg:89.31ms
+step:1800/20000 train_loss:2.1554 train_time:160826ms step_avg:89.35ms
+step:2000/20000 train_loss:2.0715 train_time:178627ms step_avg:89.31ms
+step:2200/20000 train_loss:2.1398 train_time:196531ms step_avg:89.33ms
+step:2400/20000 train_loss:2.0706 train_time:214338ms step_avg:89.31ms
+step:2600/20000 train_loss:2.1210 train_time:232270ms step_avg:89.33ms
+step:2800/20000 train_loss:2.1619 train_time:250205ms step_avg:89.36ms
+step:3000/20000 train_loss:2.1704 train_time:268014ms step_avg:89.34ms
+step:3200/20000 train_loss:2.1792 train_time:285916ms step_avg:89.35ms
+step:3400/20000 train_loss:2.0307 train_time:303709ms step_avg:89.33ms
+step:3600/20000 train_loss:2.1069 train_time:321622ms step_avg:89.34ms
+step:3800/20000 train_loss:2.0895 train_time:339416ms step_avg:89.32ms
+step:4000/20000 train_loss:1.9873 train_time:357324ms step_avg:89.33ms
+step:4200/20000 train_loss:2.1614 train_time:375231ms step_avg:89.34ms
+step:4400/20000 train_loss:2.0440 train_time:393028ms step_avg:89.32ms
+step:4600/20000 train_loss:1.8472 train_time:410926ms step_avg:89.33ms
+step:4800/20000 train_loss:2.4315 train_time:428731ms step_avg:89.32ms
+step:5000/20000 train_loss:2.1130 train_time:446640ms step_avg:89.33ms
+step:5200/20000 train_loss:2.0497 train_time:464438ms step_avg:89.31ms
+step:5400/20000 train_loss:2.0545 train_time:482328ms step_avg:89.32ms
+step:5600/20000 train_loss:1.9593 train_time:500216ms step_avg:89.32ms
+step:5800/20000 train_loss:2.0003 train_time:518008ms step_avg:89.31ms
+step:6000/20000 train_loss:1.9432 train_time:535897ms step_avg:89.32ms
+swa:start step:6125
+step:6200/20000 train_loss:1.9527 train_time:553810ms step_avg:89.32ms
+step:6400/20000 train_loss:2.0013 train_time:571938ms step_avg:89.37ms
+step:6600/20000 train_loss:1.8414 train_time:589942ms step_avg:89.39ms
+step:6711/20000 val_loss:1.9457 val_bpb:1.1523 train_time:600056ms step_avg:89.41ms
+stopping_early: wallclock_cap train_time:600056ms step:6711/20000
+peak memory allocated: 21780 MiB reserved: 22028 MiB
+swa:applying averaged 24 checkpoints
+Serialized model: 104546497 bytes
+Code size: 63333 bytes
+Total submission size: 104609830 bytes
+Serialized model int6+zstd-22: 15754140 bytes (payload:27248992 raw_torch:27304979 payload_ratio:3.84x)
+Total submission size int6+zstd-22: 15817473 bytes
+Total submission size int8+zlib: 15817473 bytes
+final_int8_zlib_roundtrip val_loss:1.9559 val_bpb:1.1584 eval_time:2033ms
+final_int8_zlib_roundtrip_exact val_bpb:1.15837141
+final_sliding_window stride:64 val_loss:1.9158 val_bpb:1.1346 eval_time:182404ms
+final_sliding_window_exact stride:64 val_loss:1.91575787 val_bpb:1.13462286
+
+=== evaluate.py: Finished in 933.2s (exit code: 0) ===
+
+=== EVALUATE.PY TRAINING ANALYSIS ===
+total_steps: 6600
+avg_step_ms: 89.4
+train_loss: 6.9315 -> 1.8414 (drop: 5.0901)
+convergence_rate: 0.7712 per 1000 steps
+swa_checkpoints: 24
+WARNING: step_avg 89.4ms > 70ms threshold. Possible torch.compile issue.
+WARNING: artifact 15817473 bytes close to 16MB limit (182527 headroom)
+=== END TRAINING ANALYSIS ===
+
+Artifact size: 15817473 bytes (182527 bytes headroom)
+Standard roundtrip val_bpb: 1.15837141
+Sliding window val_bpb: 1.13462286 (using this)
+val_bpb: 1.13462286
